@@ -70,4 +70,5 @@ def naming_system
     :label => "species",
     :sub_category => nil
   }
+species
 end
