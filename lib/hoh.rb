@@ -48,7 +48,10 @@ def naming_system
  }
   }
 }
-  family = { :label => "Family", :sub_category => { :label => "Genus", :sub_category => { :label => "Species", :sub_category => nil }
+   order = {
+   :label => "Order", 
+   :sub_category => family
+ }
     final = {
   :label => "Kingdom",
    :sub_category => {
